@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dark"
+    android:id="@+id/parent"
+    android:visibility="visible">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/backbutton"
+            android:src="@drawable/arrow">
+
+        </ImageButton>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/character_image"
+            android:scaleType="centerCrop" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="      Character Name: "
+                android:textSize="20dp"
+                android:textColor="#FF03DAC5"
+                android:fontFamily="@font/calligraphr_regular"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/calligraphr_regular"
+                android:textColor="#f0e14a"
+                android:id="@+id/character_title"
+                android:padding="7dp"
+                android:textSize="20dp"
+                android:text=" Character name"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/calligraphr_regular"
+                android:text="      Status: "
+                android:textSize="20dp"
+                android:textColor="#FF03DAC5"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#f0e14a"
+                android:id="@+id/character_status"
+                android:fontFamily="@font/calligraphr_regular"
+                android:padding="7dp"
+                android:textSize="20dp"
+                android:text=" Status name"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FF03DAC5"
+                android:textSize="20dp"
+                android:fontFamily="@font/calligraphr_regular"
+                android:text="      Gender: "
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#f0e14a"
+                android:id="@+id/character_gender"
+                android:padding="7dp"
+                android:textSize="20dp"
+                android:fontFamily="@font/calligraphr_regular"
+                android:text=" Gender name"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/calligraphr_regular"
+                android:text="      Species: "
+                android:textSize="20dp"
+                android:textColor="#FF03DAC5"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#f0e14a"
+                android:id="@+id/character_species"
+                android:padding="7dp"
+                android:textSize="20dp"
+                android:fontFamily="@font/calligraphr_regular"
+                android:text=" Species name"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/calligraphr_regular"
+                android:text="      Origin: "
+                android:textSize="20dp"
+                android:textColor="#FF03DAC5"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#f0e14a"
+                android:id="@+id/character_origin"
+                android:padding="7dp"
+                android:textSize="20dp"
+                android:fontFamily="@font/calligraphr_regular"
+                android:text=" Origin name"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/calligraphr_regular"
+                android:text="      Location: "
+                android:textSize="20dp"
+                android:textColor="#FF03DAC5"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#f0e14a"
+                android:id="@+id/character_location"
+                android:padding="7dp"
+                android:textSize="20dp"
+                android:fontFamily="@font/calligraphr_regular"
+                android:text=" Location name"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>
