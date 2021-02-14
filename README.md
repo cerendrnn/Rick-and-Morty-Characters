@@ -17,12 +17,13 @@
 <b> Note: </b> <p> The project is implemented on Pixel 3 API 28 virtual device. </p>
 
 <img src="mainscreen.jpg" alt="Screen-1: Loading screen">
-
+<p> Screen-1: Loading screen </p>
 <img src="screen1.JPG" alt="Screen-2: Character list screen">
-
+<p> Screen-2: Character list screen </p>
 <img src="screen2.JPG" alt="Screen-3: Rick Sanchez’s character details">
-
+<p> Screen-3: Rick Sanchez’s character details </p>
 <img src="screen3.JPG" alt="Screen-4: Morty Smith’s character details">
+<p> Screen-4: Morty Smith’s character details</p>
 
 
 
