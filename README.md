@@ -12,3 +12,11 @@
   <li>In this project, requests package handles Retrofit library operations. </li>
 </ul>
 
+<h1> SCREENS </h1>
+
+<b> Note: </b> <p> The project is implemented on Pixel 3 API 28 virtual device. </p>
+
+<img src="mainscreen.jpg" alt="Screen-1: Loading screen">
+
+
+
