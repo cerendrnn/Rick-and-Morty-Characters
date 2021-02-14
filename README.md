@@ -18,11 +18,11 @@
 
 <img src="mainscreen.jpg" alt="Screen-1: Loading screen">
 
-<img src="screen1.jpg" alt="Screen-2: Character list screen">
+<img src="screen1.JPG" alt="Screen-2: Character list screen">
 
-<img src="screen2.jpg" alt="Screen-3: Rick Sanchez’s character details">
+<img src="screen2.JPG" alt="Screen-3: Rick Sanchez’s character details">
 
-<img src="screen3.jpg" alt="Screen-4: Morty Smith’s character details">
+<img src="screen3.JPG" alt="Screen-4: Morty Smith’s character details">
 
 
 
