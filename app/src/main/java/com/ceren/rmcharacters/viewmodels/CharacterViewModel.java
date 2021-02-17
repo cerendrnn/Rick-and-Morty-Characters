@@ -34,11 +34,5 @@ public class CharacterViewModel extends ViewModel {
         return mCharacterId;
     }
 
-    public void setRetrievedRecipe(boolean retrievedRecipe){
-        mDidRetrieveCharacter = retrievedRecipe;
-    }
-
-    public boolean didRetrieveRecipe(){
-        return mDidRetrieveCharacter;
-    }
+   
 }
